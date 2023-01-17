@@ -1,43 +1,26 @@
-
-body, html {
-	width: 100%;
-	height: 100%;
-	font-family: 'Montserrat', sans-serif;
-	background: url(homebg.jpg) no-repeat center center fixed;
-	background-size: cover;
+body {
+	font: 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	background: linear-gradient(to right, red, yellow);
 }
 
 h1 {
-	font-size: 2rem;
-	color: #fff;
-	margin-bottom: 40px;
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-.btn {
-	font-weight: 700;
-	border-radius: 300px;
+	font: 600 3.5em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
 }
 
-.btn-xl {
-	padding: 1rem 2rem;
-}
-
-.btn-primary {
-	background-color: #0d6efd;
-	border-color: #0d6efd;
-}
-
-.btn-primary:hover {
-	background-color: #25569f;
-	border-color: #25569f;
-}
-
-hr {
-	margin: 20px auto;
-	color: #fff;
-	border: 1px solid #fff;
-	max-width: 65px;
-	opacity: 0.5;
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
 }
